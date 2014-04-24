@@ -5,8 +5,10 @@ from __future__ import unicode_literals
 AUTHOR = u'Samuel Damashek'
 SITENAME = u'sdamashek.me'
 SITEURL = ''
+OUTPUT_PATH="../../sdamashek.github.com"
+PATH="content"
 
-TIMEZONE = 'Europe/Paris'
+TIMEZONE = 'America/New_York'
 
 DEFAULT_LANG = u'en'
 
