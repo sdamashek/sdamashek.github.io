@@ -8,58 +8,61 @@
             color: #839496;
         }
         a, a:visited {
-            color: #2aa198;
+            color: #268bd2;
             text-decoration: underline;
+        }
+        .string {
+            color: #2aa198;
         }
         </style>
     </head>
     <body>
         <pre>
 {
- 'name':     'Samuel Damashek',
- 'github':   '<a href='https://github.com/sdamashek/'>https://github.com/sdamashek/</a>',
- 'linkedin': '<a href='https://www.linkedin.com/pub/samuel-damashek/8a/8b8/96/'>https://www.linkedin.com/pub/samuel-damashek/8a/8b8/96/</a>',
+ <span class="string">"name"</span>:     <span class="string">"Samuel Damashek"</span>,
+ <span class="string">"github"</span>:   <span class="string">"<a href="https://github.com/sdamashek/">https://github.com/sdamashek/</a>"</span>,
+ <span class="string">"linkedin"</span>: <span class="string">"<a href="https://www.linkedin.com/pub/samuel-damashek/8a/8b8/96/">https://www.linkedin.com/pub/samuel-damashek/8a/8b8/96/</a>"</span>,
 
- 'awards': ['6th place in PicoCTF 2014, held by Carnegie Mellon University (Team)',
-            'Volunteer Gold Star Award, Fairfax County Department of Neighborhood and Community Services, 2014',
-            'Best Collaborative Hack, Hack the North 2014 at University of Waterloo, Ontario (Team)',
-            '1st place, MITRECTF 2013 and 2014 (Team)',
-            '1st place, Booz Allen Hamilton Data Science Bowl 2013 (Team, 7th place individually)',
-            'Volunteer of the Year, Prince William County Public Schools VEX Robotics program'],
+ <span class="string">"awards"</span>: [<span class="string">"6th place in PicoCTF 2014, held by Carnegie Mellon University (Team)"</span>,
+            <span class="string">"Volunteer Gold Star Award, Fairfax County Department of Neighborhood and Community Services, 2014"</span>,
+            <span class="string">"Best Collaborative Hack, Hack the North 2014 at University of Waterloo, Ontario (Team)"</span>,
+            <span class="string">"1st place, MITRECTF 2013 and 2014 (Team)"</span>,
+            <span class="string">"1st place, Booz Allen Hamilton Data Science Bowl 2013 (Team, 7th place individually)"</span>,
+            <span class="string">"Volunteer of the Year, Prince William County Public Schools VEX Robotics program"</span>],
 
- 'projects': {'VoxelBot':   {'description': 'Wikipedia bot to collect and display statistics on current vandalism amounts on the English Wikipedia',
-                             'github':      '<a href='https://github.com/sdamashek/Voxel-Bot'>https://github.com/sdamashek/Voxel-Bot</a>'},
+ <span class="string">"projects"</span>: {<span class="string">"VoxelBot"</span>:   {<span class="string">"description"</span>: <span class="string">"Wikipedia bot to collect and display statistics on current vandalism amounts on the English Wikipedia"</span>,
+                             <span class="string">"github"</span>:      <span class="string">"<a href="https://github.com/sdamashek/Voxel-Bot">https://github.com/sdamashek/Voxel-Bot</a>"</span>},
 
-              'codesphere': {'description': 'Web application that combines a live team chat, whiteboard, and bugs system to assist in group programming projects',
-                             'github':      '<a href='https://github.com/tjcsl/codesphere'>https://github.com/tjcsl/codesphere</a>',
-                             'website':     '<a href='http://www.codesphere.org/'>http://www.codesphere.org/</a>'},
+              <span class="string">"codesphere"</span>: {<span class="string">"description"</span>: <span class="string">"Web application that combines a live team chat, whiteboard, and bugs system to assist in group programming projects"</span>,
+                             <span class="string">"github"</span>:      <span class="string">"<a href="https://github.com/tjcsl/codesphere">https://github.com/tjcsl/codesphere</a>"</span>,
+                             <span class="string">"website"</span>:     <span class="string">"<a href="http://www.codesphere.org/">http://www.codesphere.org/</a>"</span>},
 
-              'mips':       {'description': 'MIPS emulator with reduced instruction set',
-                             'github':      '<a href='https://github.com/sdamashek/mips'>https://github.com/sdamashek/mips</a>'},
+              <span class="string">"mips"</span>:       {<span class="string">"description"</span>: <span class="string">"MIPS emulator with reduced instruction set"</span>,
+                             <span class="string">"github"</span>:      <span class="string">"<a href="https://github.com/sdamashek/mips">https://github.com/sdamashek/mips</a>"</span>},
 
-              'queri.me':   {'description': 'Web application which helps sysadmins keep track of the status of their machines, and set reminders, using clients running on their servers',
-                             'github':      ['<a href='https://github.com/tjcsl/mhacksiv'>https://github.com/tjcsl/mhacksiv</a>',
-                                             '<a href='https://github.com/tjcsl/queri-agent'>https://github.com/tjcsl/queri-agent</a>'],
-                             'website':     '<a href='http://queri.me/'>http://queri.me/</a>'},
+              <span class="string">"queri.me"</span>:   {<span class="string">"description"</span>: <span class="string">"Web application which helps sysadmins keep track of the status of their machines, and set reminders, using clients running on their servers"</span>,
+                             <span class="string">"github"</span>:      [<span class="string">"<a href="https://github.com/tjcsl/mhacksiv">https://github.com/tjcsl/mhacksiv</a>"</span>,
+                                             <span class="string">"<a href="https://github.com/tjcsl/queri-agent">https://github.com/tjcsl/queri-agent</a>"</span>],
+                             <span class="string">"website"</span>:     <span class="string">"<a href="http://queri.me/">http://queri.me/</a>"</span>},
 
-              'wedge':      {'description': 'Web application which makes a game out of Wikipedia editing to encourage productive edits',
-                             'github':      '<a href='https://github.com/tjcsl/wedge'>https://github.com/tjcsl/wedge</a>'}},
+              <span class="string">"wedge"</span>:      {<span class="string">"description"</span>: <span class="string">"Web application which makes a game out of Wikipedia editing to encourage productive edits"</span>,
+                             <span class="string">"github"</span>:      <span class="string">"<a href="https://github.com/tjcsl/wedge">https://github.com/tjcsl/wedge</a>"</span>}},
 
- 'skills': [{'Python': ['Flask', 
-                        'Django']},
+ <span class="string">"skills"</span>: [{<span class="string">"Python"</span>: [<span class="string">"Flask"</span>, 
+                        <span class="string">"Django"</span>]},
 
-            {'Linux':  ['Bash',
-                        'Systems Administration',
-                        'Apache',
-                        'Kerberos',
-                        'NSS LDAP',
-                        'KVM/Libvirt']},
+            {<span class="string">"Linux"</span>:  [<span class="string">"Bash"</span>,
+                        <span class="string">"Systems Administration"</span>,
+                        <span class="string">"Apache"</span>,
+                        <span class="string">"Kerberos"</span>,
+                        <span class="string">"NSS LDAP"</span>,
+                        <span class="string">"KVM/Libvirt"</span>]},
 
-            'C',
-            'HTML/JS/CSS',
-            'PHP',
-            'Puppet',
-            'Salt']
+            "C",
+            <span class="string">"HTML/JS/CSS"</span>,
+            <span class="string">"PHP"</span>,
+            <span class="string">"Puppet"</span>,
+            <span class="string">"Salt"</span>]
 }
         </pre>
     </body>
